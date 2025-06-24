@@ -1,0 +1,13 @@
+Tony Stark:2105226
+Bruce Banner:2105224
+Carol Danvers:2105221
+Clint Barton:2105228
+Harvey Oswald:2105258
+Matthew Murdock:2105225
+Natasha Romanoff:2105229
+Peter Parker:2105222
+Sammy Adams:2105219
+Stephen Strange:2105223
+Steven Rogers:2105227
+Thor Odinson:2105230
+Tony Stark:2105226

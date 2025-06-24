@@ -1,0 +1,17 @@
+========= Hash Function Performance Report =========
+
+Input file: sample_input.txt
+
+Performance Metrics:
+---------------------------------------------------------
+| Hash Function | Collisions | Scopes | Bucket Size | Collision Ratio |
+---------------------------------------------------------
+| additive      | 1          | 8      | 7           | 0.017857        |
+| djb2          | 1          | 8      | 7           | 0.017857        |
+| fnv           | 0          | 8      | 7           | 0.000000        |
+| sdbm          | 4          | 8      | 7           | 0.071429        |
+---------------------------------------------------------
+
+Collision Ratio = Total Collisions / (Scope Count * Bucket Size)
+
+Lower ratio indicates better performance (fewer collisions).
