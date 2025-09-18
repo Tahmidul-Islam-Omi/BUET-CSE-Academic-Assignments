@@ -1,0 +1,110 @@
+Line 1: type_specifier : INT
+
+int
+
+Line 2: type_specifier : INT
+
+int
+
+Line 2: declaration_list : ID
+
+i
+
+Line 2: var_declaration : type_specifier declaration_list SEMICOLON
+
+int i;
+
+Line 2: statement : var_declaration
+
+int i;
+
+Line 2: statements : statement
+
+int i;
+
+Line 3: variable : ID
+
+i
+
+Line 3: factor : CONST_INT
+
+5
+
+Line 3: unary_expression : factor
+
+5
+
+Line 3: term : unary_expression
+
+5
+
+Line 3: simple_expression : term
+
+5
+
+Line 3: rel_expression : simple_expression
+
+5
+
+Line 3: logic_expression : rel_expression
+
+5
+
+Line 3: expression : variable ASSIGNOP logic_expression
+
+i=5
+
+Line 3: expression_statement : expression SEMICOLON
+
+i=5;
+
+Line 3: statement : expression_statement
+
+i=5;
+
+Line 3: statements : statements statement
+
+int i;
+i=5;
+
+Line 5: compound_statement : LCURL statements RCURL
+
+{
+int i;
+i=5;
+}
+
+
+ScopeTable # 1.1
+0 --> < i : ID >
+ScopeTable # 1
+6 --> < main : ID >
+
+Line 5: func_definition : type_specifier ID LPAREN RPAREN compound_statement
+
+int main(){
+int i;
+i=5;
+}
+
+Line 5: unit : func_definition
+
+int main(){
+int i;
+i=5;
+}
+
+Line 5: program : unit
+
+int main(){
+int i;
+i=5;
+}
+
+Line 5: start : program
+
+ScopeTable # 1
+6 --> < main : ID >
+
+Total number of lines: 5
+Total number of errors: 0

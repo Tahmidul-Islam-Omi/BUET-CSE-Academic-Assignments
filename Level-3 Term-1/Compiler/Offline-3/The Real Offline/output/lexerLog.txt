@@ -1,0 +1,13 @@
+Line# 1: Token <INT> Lexeme int
+Line# 1: Token <ID> Lexeme main
+Line# 1: Token <LPAREN> Lexeme (
+Line# 1: Token <RPAREN> Lexeme )
+Line# 1: Token <LCURL> Lexeme {
+Line# 2: Token <INT> Lexeme int
+Line# 2: Token <ID> Lexeme i
+Line# 2: Token <SEMICOLON> Lexeme ;
+Line# 3: Token <ID> Lexeme i
+Line# 3: Token <ASSIGNOP> Lexeme =
+Line# 3: Token <CONST_INT> Lexeme 5
+Line# 3: Token <SEMICOLON> Lexeme ;
+Line# 5: Token <RCURL> Lexeme }
